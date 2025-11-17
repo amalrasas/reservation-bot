@@ -1,0 +1,91 @@
+[
+  {
+    "id": "5ec3457e-9251-4627-b734-43d87fd3883d",
+    "guestName": "Amal Rasas",
+    "guestPhoneNumber": "+962791468782",
+    "date": "2025-11-17",
+    "slot": "21:30",
+    "numberOfPeople": 2,
+    "status": "confirmed",
+    "createdAt": "2025-11-17T16:40:47.728Z",
+    "updatedAt": "2025-11-17T16:40:47.728Z"
+  },
+  {
+    "id": "df383ab9-4e14-4aba-9130-298aee43a9df",
+    "guestName": "Suhaib",
+    "guestPhoneNumber": "+962791468782",
+    "date": "2025-11-17",
+    "slot": "21:30",
+    "numberOfPeople": 2,
+    "status": "confirmed",
+    "createdAt": "2025-11-17T16:46:23.538Z",
+    "updatedAt": "2025-11-17T16:46:23.538Z"
+  },
+  {
+    "id": "43fb0dff-859a-4201-a35e-03e745d9b9b4",
+    "guestName": "amal",
+    "guestPhoneNumber": "+962790033139",
+    "date": "2025-11-21",
+    "slot": "17:30",
+    "numberOfPeople": 2,
+    "status": "confirmed",
+    "createdAt": "2025-11-17T17:04:29.309Z",
+    "updatedAt": "2025-11-17T17:04:29.309Z"
+  },
+  {
+    "id": "ca867e73-bb27-46bb-896e-2a866537c676",
+    "guestName": "456",
+    "guestPhoneNumber": "+966123456789",
+    "date": "2025-11-20",
+    "slot": "20:30",
+    "numberOfPeople": 3,
+    "status": "confirmed",
+    "createdAt": "2025-11-17T18:00:16.677Z",
+    "updatedAt": "2025-11-17T18:00:16.677Z"
+  },
+  {
+    "id": "7ea73db3-4d29-4af0-9979-cf37c2f9b71e",
+    "guestName": "32",
+    "guestPhoneNumber": "+962123665548997",
+    "date": "2025-11-20",
+    "slot": "20:30",
+    "numberOfPeople": 1,
+    "status": "confirmed",
+    "createdAt": "2025-11-17T18:00:57.104Z",
+    "updatedAt": "2025-11-17T18:00:57.104Z"
+  },
+  {
+    "id": "b64cbe82-a172-4116-a0cb-ff10999d3c5b",
+    "guestName": "sdf",
+    "guestPhoneNumber": "+69874563214",
+    "date": "2025-11-20",
+    "slot": "20:00",
+    "numberOfPeople": 9,
+    "status": "confirmed",
+    "createdAt": "2025-11-17T18:13:01.246Z",
+    "updatedAt": "2025-11-17T18:13:01.246Z"
+  },
+  {
+    "id": "cbb7fa03-40c9-4ef3-bdf0-2eb6d93a9e76",
+    "guestName": "644",
+    "guestPhoneNumber": "+962448956165",
+    "date": "2025-11-20",
+    "slot": "12:00",
+    "numberOfPeople": 19,
+    "notes": "5",
+    "status": "cancelled",
+    "createdAt": "2025-11-17T18:13:41.603Z",
+    "updatedAt": "2025-11-17T18:14:07.793Z"
+  },
+  {
+    "id": "8120e207-dfbd-4460-95be-e372896c90b3",
+    "guestName": "222",
+    "guestPhoneNumber": "+962790033139",
+    "date": "2025-11-20",
+    "slot": "14:30",
+    "numberOfPeople": 2,
+    "status": "confirmed",
+    "createdAt": "2025-11-17T18:49:15.898Z",
+    "updatedAt": "2025-11-17T18:49:15.898Z"
+  }
+]
