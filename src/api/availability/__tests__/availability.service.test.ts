@@ -38,6 +38,11 @@ describe('AvailabilityService', () => {
     service = new AvailabilityService(timeSlotProviderMock);
   });
 
+  beforeAll(() => {
+  jest.spyOn(console, 'error').mockImplementation(() => {});
+});
+
+
   describe('onModuleInit', () => {
     it('loads availability from file when it exists and is valid', () => {
       const fakeCalendar: AvailabilityCalendar = {

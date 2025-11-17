@@ -1,19 +1,21 @@
 # 🧾 Reservation Bot (NestJS)
 
-- A simple reservation system built with **NestJS**.
-- It supports creating new reservations, updating them, and cancelling them.
-- A CLI bot is included for interacting with the system.
+- A simple reservation system built with **NestJS**.  
+- It supports creating new reservations, updating them, and cancelling them.  
+- A CLI bot is included for interacting with the system.  
+- Unit testing is implemented to ensure correctness.
 
 ---
 
 ## 🚀 Tech Stack
 
-- **Node.js**
-- **NestJS**
-- **TypeScript**
-- **Axios** (for CLI bot calls)
-- **class-validator**
-- **JSON file storage**
+- **Node.js**  
+- **NestJS**  
+- **TypeScript**  
+- **Axios** (for CLI bot calls)  
+- **class-validator**  
+- **JSON file storage**  
+- **Jest** (unit testing)
 
 ---
 
@@ -62,9 +64,9 @@ BASE_URL=http://localhost:3000
 MAX_CAPACITY_PER_SLOT=20
 ```
 
-- `PORT`: The port your NestJS API will run on
-- `BASE_URL`: Used by the CLI bot to call your API
-- `MAX_CAPACITY_PER_SLOT`: Default number of people allowed per time slot
+- `PORT`: The port your NestJS API will run on  
+- `BASE_URL`: Used by the CLI bot to call your API  
+- `MAX_CAPACITY_PER_SLOT`: Default number of people allowed per time slot  
 
 ---
 
@@ -72,16 +74,16 @@ MAX_CAPACITY_PER_SLOT=20
 
 The interactive CLI bot supports:
 
-- Creating a new reservation
-- Updating an existing reservation
-- Cancelling a reservation
+- Creating a new reservation  
+- Updating an existing reservation  
+- Cancelling a reservation  
 
 It validates:
 
-- Dates
-- Phone Number
-- Time slots
-- Number of people
+- Dates  
+- Phone numbers  
+- Time slots  
+- Number of people  
 
 Run it any time using:
 
@@ -91,16 +93,24 @@ npm run bot
 
 ---
 
+## 🧪 Running Unit Tests
+
+### ▶️ Run all tests
+
+```bash
+npm run test
+```
+
+---
+
 ## 🗂 Data Storage
 
 The project stores data in two JSON files:
 
 ### `reservations.json`
-
 Contains all reservation objects created by users.
 
 ### `availability.json`
-
 Contains generated availability and time slot capacities.
 
 No external database or third-party services are required.

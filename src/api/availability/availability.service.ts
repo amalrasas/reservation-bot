@@ -40,7 +40,7 @@ export class AvailabilityService implements OnModuleInit {
   getAvailableSlotsByDate(date: string): TimeSlotsWithCapacity {
     if (!Object.hasOwn(this.availability, date)) {
       throw new BadRequestException({
-        message: `no available ccccccc time slots for this date :${date}.`,
+        message: `no available time slots for this date :${date}.`,
       });
     }
 
