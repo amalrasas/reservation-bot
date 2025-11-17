@@ -13,7 +13,7 @@
 - **TypeScript**
 - **Axios** (for CLI bot calls)
 - **class-validator**
-- **JSON file storage** (`reservations.json`, `availability.json`)
+- **JSON file storage**
 
 ---
 
@@ -75,7 +75,6 @@ The interactive CLI bot supports:
 - Creating a new reservation
 - Updating an existing reservation
 - Cancelling a reservation
-- Viewing availability
 
 It validates:
 
