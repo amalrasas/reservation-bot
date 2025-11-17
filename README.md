@@ -54,7 +54,7 @@ npm run bot
 
 ---
 
-## 🔧 Environment Variables
+## 🔧 Environment Variables (Optional)
 
 Create a `.env` file in the project root:
 
